@@ -34,6 +34,18 @@ $(document).ready(function () {
             $('#btn-view-calculator').addClass('d-none');
         }
     )
+
+
+    $('#card-item-arcs').hover(
+        function(){
+            $('#btn-view-arcs').removeClass('d-none');
+            $('#card-item-arcs').css('cursor', 'pointer');
+        },function(){
+            $('#btn-view-arcs').addClass('d-none');
+        }
+    )
+
+
     $('#card-item-fr').hover(
         function(){
             $('#btn-view-fr').removeClass('d-none');
@@ -75,6 +87,7 @@ $(document).ready(function () {
       $('#card-item-system').fadeIn().removeClass('d-none');
       $('#card-item-fr').fadeIn().removeClass('d-none');
       $('#card-item-calculator').fadeIn().removeClass('d-none');
+      $('#card-item-arcs').fadeIn().removeClass('d-none');
       $('#card-item-bms').fadeIn().removeClass('d-none');
       $('#card-item-crud').fadeIn().removeClass('d-none');
       $('#card-item-rv').fadeIn().removeClass('d-none');
@@ -86,10 +99,11 @@ $(document).ready(function () {
       $('#nav-program-tab').removeClass('project-active');
     })
     $('#nav-web-app-tab').click(function(){
-      $('#card-item-rps').fadeOut().addClass('d-none');;
-      $('#card-item-system').fadeOut().addClass('d-none');;
-      $('#card-item-fr').fadeOut().addClass('d-none');;
-      $('#card-item-calculator').fadeOut().addClass('d-none');;
+      $('#card-item-rps').fadeOut().addClass('d-none');
+      $('#card-item-system').fadeOut().addClass('d-none');
+      $('#card-item-fr').fadeOut().addClass('d-none');
+      $('#card-item-calculator').fadeOut().addClass('d-none');
+      $('#card-item-arcs').fadeOut().addClass('d-none');
       $('#card-item-bms').fadeIn().removeClass('d-none');
       $('#card-item-crud').fadeIn().removeClass('d-none');
       $('#card-item-rv').fadeIn().removeClass('d-none');
@@ -106,6 +120,7 @@ $(document).ready(function () {
       $('#card-item-system').fadeIn().removeClass('d-none');
       $('#card-item-fr').fadeIn().removeClass('d-none');
       $('#card-item-calculator').fadeIn().removeClass('d-none');
+      $('#card-item-arcs').fadeIn().removeClass('d-none');
       $('#card-item-bms').fadeOut().addClass('d-none');
       $('#card-item-crud').fadeOut().addClass('d-none');
       $('#card-item-rv').fadeOut().addClass('d-none');
@@ -123,6 +138,7 @@ $(document).ready(function () {
       $('#card-item-system').fadeOut().addClass('d-none');
       $('#card-item-fr').fadeOut().addClass('d-none');
       $('#card-item-calculator').fadeOut().addClass('d-none');
+      $('#card-item-arcs').fadeOut().addClass('d-none');
       $('#card-item-bms').fadeOut().addClass('d-none');
       $('#card-item-crud').fadeOut().addClass('d-none');
       $('#card-item-rv').fadeOut().addClass('d-none');
