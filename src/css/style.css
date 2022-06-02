@@ -150,6 +150,10 @@ border: 1px solid #c7588b;
 border-radius: 5px 5px 0 0;
 border-bottom: 0;
 }
+.skills-item{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 @media only screen and (max-width: 1000px){
@@ -185,6 +189,7 @@ border-bottom: 0;
         padding-left: 0;
     }
 }
+
 
 ::-webkit-scrollbar {
     margin-top: 5px;
