@@ -31,10 +31,10 @@ ul{
     background-color: #333333;
     color: #f0e160;
 }
-#frontend, #backend, #database{
+#frontend, #backend, #database, #frameworks:hover, #mobile-app:hover{
     cursor: pointer;
 }
-#frontend:hover, #backend:hover, #database:hover{
+#frontend:hover, #backend:hover, #database:hover, #frameworks:hover, #mobile-app:hover{
     color: #c7588b;
     transition: 0.5s ease;
 
