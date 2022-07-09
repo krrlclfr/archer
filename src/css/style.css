@@ -246,3 +246,19 @@ border-bottom: 0;
         transform: translate(0, 15px);
     }
 }
+.languages{
+    font-weight: bold;
+    font-size: 10px;
+    background-color: #6B9688;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+.text-scroll{
+    overflow: auto; 
+    height: 120px;
+}
+.langs{
+    margin-bottom: 20px;
+    overflow-x: auto;
+}

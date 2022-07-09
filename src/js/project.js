@@ -82,6 +82,15 @@ $(document).ready(function () {
         }
     )
 
+    $('#card-item-inventory').hover(
+        function(){
+            $('#btn-view-inventory').removeClass('d-none');
+            $('#card-item-inventory').css('cursor', 'pointer');
+        },function(){
+            $('#btn-view-inventory').addClass('d-none');
+        }
+    )
+
     $('#nav-home-tab').click(function(){
       $('#card-item-rps').fadeIn().removeClass('d-none');
       $('#card-item-system').fadeIn().removeClass('d-none');
