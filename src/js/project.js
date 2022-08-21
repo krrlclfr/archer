@@ -101,12 +101,14 @@ $(document).ready(function () {
       $('#card-item-crud').fadeIn().removeClass('d-none');
       $('#card-item-rv').fadeIn().removeClass('d-none');
       $('#card-item').fadeIn().removeClass('d-none');
+      $('#card-item-inventory').fadeIn().removeClass('d-none');
 
       $('#nav-home-tab').addClass('project-active');
       $('#nav-web-app-tab').removeClass('project-active');
       $('#nav-desktop-app-tab').removeClass('project-active');
       $('#nav-program-tab').removeClass('project-active');
     })
+
     $('#nav-web-app-tab').click(function(){
       $('#card-item-rps').fadeOut().addClass('d-none');
       $('#card-item-system').fadeOut().addClass('d-none');
@@ -117,6 +119,7 @@ $(document).ready(function () {
       $('#card-item-crud').fadeIn().removeClass('d-none');
       $('#card-item-rv').fadeIn().removeClass('d-none');
       $('#card-item').fadeIn().removeClass('d-none');
+      $('#card-item-inventory').fadeIn().removeClass('d-none');
 
       $('#nav-home-tab').removeClass('project-active');
       $('#nav-web-app-tab').addClass('project-active');
@@ -134,6 +137,7 @@ $(document).ready(function () {
       $('#card-item-crud').fadeOut().addClass('d-none');
       $('#card-item-rv').fadeOut().addClass('d-none');
       $('#card-item').fadeOut().addClass('d-none');
+      $('#card-item-inventory').fadeOut().addClass('d-none');
 
       $('#nav-home-tab').removeClass('project-active');
       $('#nav-web-app-tab').removeClass('project-active');
@@ -152,6 +156,7 @@ $(document).ready(function () {
       $('#card-item-crud').fadeOut().addClass('d-none');
       $('#card-item-rv').fadeOut().addClass('d-none');
       $('#card-item').fadeOut().addClass('d-none');
+      $('#card-item-inventory').fadeOut().addClass('d-none');
 
       $('#nav-home-tab').removeClass('project-active');
       $('#nav-web-app-tab').removeClass('project-active');
