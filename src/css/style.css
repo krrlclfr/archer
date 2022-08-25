@@ -101,7 +101,7 @@ ul{
   border-radius: 50%;
   border: 1px solid #f0e160;
   background-color: rgba(0,0,0,0.3);
-  color: white;
+  color: #ffffff;
   font-size: 25px;
   text-align: center;
   margin: 5px;
@@ -113,6 +113,12 @@ color: #f0e160;
 .arrow:hover{
 border: 1px solid #c7588b;
 
+}
+.footer-link{
+    color: #ffffff;
+}
+.footer-link:hover{
+    color: #c7588b; 
 }
 .arrow a:hover{
 color: #c7588b;

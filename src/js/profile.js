@@ -37,7 +37,7 @@ $(document).ready(function () {
         $('#database-list').slideToggle();
         $('#frameworks-list').fadeOut();
         $('#mobile-list').fadeOut();
-        $('#backtend-list').fadeOut();
+        $('#backend-list').fadeOut();
         $('#frontend-list').fadeOut();
 
     })
