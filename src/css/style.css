@@ -268,3 +268,31 @@ border-bottom: 0;
     margin-bottom: 20px;
     overflow-x: auto;
 }
+
+.profile-container{
+
+    width: 350px;
+    height: 350px;
+
+    clip-path: polygon(50% 0, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    background-color: #F0E160;
+    padding: 5px;
+  }
+  .profile{
+
+    width: 340px;
+    height: 340px;
+
+    clip-path: polygon(50% 0, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    background-color: #333333;
+    padding: 5px;
+  }
+
+  .profile-pic{
+
+    width: 330px;
+    height: 330px;
+
+    clip-path: polygon(50% 0, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    background-color: #555555;
+  }
