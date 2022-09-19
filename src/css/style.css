@@ -186,6 +186,16 @@ border-bottom: 0;
         padding-right: 1.5rem;
         padding-left: 1.5rem;
     }
+    .reveal-lefts {
+        position: relative;
+        transform: translateY(150px);
+        opacity: 0;
+        transition: 1s all ease;
+    }
+    .reveal-lefts.actives{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 @media (max-width: 766px){
@@ -295,4 +305,28 @@ border-bottom: 0;
 
     clip-path: polygon(50% 0, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
     background-color: #555555;
+  }
+
+  .reveal-left{
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal-left.actives{
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .reveal-right{
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal-right.actives{
+    transform: translateX(0);
+    opacity: 1;
   }
