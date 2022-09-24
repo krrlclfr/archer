@@ -307,26 +307,3 @@ border-bottom: 0;
     background-color: #555555;
   }
 
-  .reveal-left{
-    position: relative;
-    transform: translateX(-150px);
-    opacity: 0;
-    transition: 0.5s all ease;
-  }
-  
-  .reveal-left.actives{
-    transform: translateX(0);
-    opacity: 1;
-  }
-
-  .reveal-right{
-    position: relative;
-    transform: translateX(150px);
-    opacity: 0;
-    transition: 0.5s all ease;
-  }
-  
-  .reveal-right.actives{
-    transform: translateX(0);
-    opacity: 1;
-  }
