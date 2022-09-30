@@ -9,6 +9,16 @@ $(document).ready(function () {
         }
     )
 
+    $('#card-item-memestagram').hover(
+        function(){
+            $('#btn-view-memestagram').removeClass('d-none');
+            $('#card-item-memestagram').css('cursor', 'pointer');
+        },function(){
+            $('#btn-view-memestagram').addClass('d-none');
+        }
+    )
+
+
     $('#card-item-rv').hover(
         function(){
             $('#btn-view-rv').removeClass('d-none');
@@ -102,6 +112,7 @@ $(document).ready(function () {
       $('#card-item-rv').fadeIn().removeClass('d-none');
       $('#card-item').fadeIn().removeClass('d-none');
       $('#card-item-inventory').fadeIn().removeClass('d-none');
+      $('#card-item-memestagram').fadeIn().removeClass('d-none');
 
       $('#nav-home-tab').addClass('project-active');
       $('#nav-web-app-tab').removeClass('project-active');
@@ -120,6 +131,7 @@ $(document).ready(function () {
       $('#card-item-rv').fadeIn().removeClass('d-none');
       $('#card-item').fadeIn().removeClass('d-none');
       $('#card-item-inventory').fadeIn().removeClass('d-none');
+      $('#card-item-memestagram').fadeIn().removeClass('d-none');
 
       $('#nav-home-tab').removeClass('project-active');
       $('#nav-web-app-tab').addClass('project-active');
@@ -138,6 +150,7 @@ $(document).ready(function () {
       $('#card-item-rv').fadeOut().addClass('d-none');
       $('#card-item').fadeOut().addClass('d-none');
       $('#card-item-inventory').fadeOut().addClass('d-none');
+      $('#card-item-memestagram').fadeOut().addClass('d-none');
 
       $('#nav-home-tab').removeClass('project-active');
       $('#nav-web-app-tab').removeClass('project-active');
@@ -157,6 +170,7 @@ $(document).ready(function () {
       $('#card-item-rv').fadeOut().addClass('d-none');
       $('#card-item').fadeOut().addClass('d-none');
       $('#card-item-inventory').fadeOut().addClass('d-none');
+      $('#card-item-memestagram').fadeOut().addClass('d-none');  
 
       $('#nav-home-tab').removeClass('project-active');
       $('#nav-web-app-tab').removeClass('project-active');
