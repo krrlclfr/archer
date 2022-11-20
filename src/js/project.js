@@ -1,5 +1,14 @@
 $(document).ready(function () {
 
+    $('#card-item-movie').hover(
+        function(){
+            $('#btn-view-movie').removeClass('d-none');
+            $('#card-item-movie').css('cursor', 'pointer');
+        },function(){
+            $('#btn-view-movie').addClass('d-none');
+        }
+    )
+
     $('#card-item').hover(
         function(){
             $('#btn-view').removeClass('d-none');
@@ -113,6 +122,7 @@ $(document).ready(function () {
       $('#card-item').fadeIn().removeClass('d-none');
       $('#card-item-inventory').fadeIn().removeClass('d-none');
       $('#card-item-memestagram').fadeIn().removeClass('d-none');
+      $('#card-item-movie').fadeIn().removeClass('d-none');
 
       $('#nav-home-tab').addClass('project-active');
       $('#nav-web-app-tab').removeClass('project-active');
@@ -130,6 +140,7 @@ $(document).ready(function () {
       $('#card-item-crud').fadeIn().removeClass('d-none');
       $('#card-item-rv').fadeIn().removeClass('d-none');
       $('#card-item').fadeIn().removeClass('d-none');
+      $('#card-item-movie').fadeIn().removeClass('d-none');
       $('#card-item-inventory').fadeIn().removeClass('d-none');
       $('#card-item-memestagram').fadeIn().removeClass('d-none');
 
@@ -149,6 +160,7 @@ $(document).ready(function () {
       $('#card-item-crud').fadeOut().addClass('d-none');
       $('#card-item-rv').fadeOut().addClass('d-none');
       $('#card-item').fadeOut().addClass('d-none');
+      $('#card-item-movie').fadeOut().addClass('d-none');
       $('#card-item-inventory').fadeOut().addClass('d-none');
       $('#card-item-memestagram').fadeOut().addClass('d-none');
 
@@ -169,6 +181,7 @@ $(document).ready(function () {
       $('#card-item-crud').fadeOut().addClass('d-none');
       $('#card-item-rv').fadeOut().addClass('d-none');
       $('#card-item').fadeOut().addClass('d-none');
+      $('#card-item-movie').fadeOut().addClass('d-none');
       $('#card-item-inventory').fadeOut().addClass('d-none');
       $('#card-item-memestagram').fadeOut().addClass('d-none');  
 
